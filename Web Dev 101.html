@@ -1,0 +1,153 @@
+<!--
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SHORTCUTS</title>
+
+<body>
+    <h1>SHORTCUTS</h1>
+    <p>! = tab to open boilerplate</p>
+    <p>ctrl + shift + p = command pallete</p>
+    <p>alt + shift + f = formatting</p>
+
+    <p>ctrl + / = comment out line</p>
+    <p>Emmet is built into VS Code <a href="https://docs.emmet.io/">https://docs.emmet.io/</a></p>
+</body>
+</head>
+
+</html> 
+-->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <!--
+        Best to have the charset first. Everything in unicode can be interpreted by UTF-8. 
+    -->
+    <meta name="description" content="This is a meta description">
+    <title>😀HTML BASICS</title>
+
+
+
+<body>
+    <h1>HTML BASICS</h1>
+
+    <h2>CHARSET</h2>
+    <p>?</p>
+
+    <h2>SEMANTICS</h2>
+    <p>Use the http protocol when using an anchor tag</p>
+    <p>inline and block elements</p>
+    <p>entities - reserved in html or symbols &copy; &lt; &gt; </p>
+    <p>centre text</p>
+    <p>
+        &lt;article&gt;
+        &lt;aside&gt;
+        &lt;details&gt;
+        &lt;figcaption&gt;
+        &lt;figure&gt;
+        &lt;footer&gt;
+        &lt;header&gt;
+        &lt;main&gt;
+        &lt;mark&gt;
+        &lt;nav&gt;
+        &lt;section&gt;
+        &lt;summary&gt;
+        &lt;time&gt;
+    </p>
+    <p><em>Emphasis</em> is better than italics &lt;i&gt;. Similar with &lt;strong&gt; and &lt;b&gt;, respectively.</p>
+    <p>MDN shows us which tags and attributes have been depricated.</p>
+    <hr>
+    <h2>FORMS AND TABLES</h2>
+    <h3>Tables</h3>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Animal</th>
+                <th colspan="2">Average Mass</th>
+                <th rowspan="2">Ranking</th>
+            </tr>
+            <tr>
+                <th>Lbs</th>
+                <th>Kg</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dog</td>
+                <td>20lbs</td>
+                <td>20kg</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Dog</td>
+                <td>20lbs</td>
+                <td>20kg</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Forms</h3>
+    <form action="mailto:adamalexandermarkus@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" placeholder="First Name" id="name" name="First_Name" required>
+        <label>Password
+            <input type="password" placeholder="Password" required pattern=".{5,10}" title="5 to 10 characters">
+        </label>
+        <input type="color">
+
+        <input name="petChoice" value="DOGS" type="radio"></input>
+        <input name="petChoice" value="CATS" type="radio"></input>
+
+        <input type="checkbox"></input>
+        <input type="checkbox" checked name="agree_checked"></input>
+
+        <p>
+            <select name="color">
+                <option value="1">Red</option>
+                <option value="2">Organge</option>
+                <option value="3">Yellow</option>
+            </select>
+        </p>
+
+        <p>
+            <textarea name="paragraph" rows="10" cols="10"></textarea>
+        </p>
+
+        <button>Click Me</button>
+        <!--
+        An alternative way to make a submit button. 
+        <input type="submit" value="Click Me">
+        -->
+    </form>
+
+    <p>action is where the data should be sent</p>
+    <p>method is what HTTP method (get/post)</p>
+    <p>name - send a name with the data. Can also connect radio buttons.</p>
+    <p>label - used for screen readers. Connected through <i>for</i> and <i>id</i> attributes.</p>
+    <p>value - adjusts what is set with the name</p>
+    <p>Always use a label. It is used for more than just screenreaders.</p>
+    <p>If you have a button in a form, the default behavior will be to submit that form, unless you specify
+        type="button".</p>
+
+
+
+    <h2>IMAGES</h2>
+    <img width="202px" src="Pictures/Desk.jpg" alt="alt tag">
+
+
+
+</body>
+</head>
+
+</html>
+
+
+
+
+<!--
+
+-->
