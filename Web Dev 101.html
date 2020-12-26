@@ -1,4 +1,4 @@
-<!--
+<!-- 
 <!DOCTYPE html>
 <html>
 
@@ -10,56 +10,161 @@
     <p>! = tab to open boilerplate</p>
     <p>ctrl + shift + p = command pallete</p>
     <p>alt + shift + f = formatting</p>
-
     <p>ctrl + / = comment out line</p>
-    <p>Emmet is built into VS Code <a href="https://docs.emmet.io/">https://docs.emmet.io/</a></p>
+    <p>ctrl + enter to create a new line</p>
+    <p>lorem100 + enter for dummy text</p>
+    <p>shift + alt to duplicate line </p>
+    <p>home and end keys to get to the end of the line</p>
+    <p>alt + arrow to move a line</p>
+    <p>ctrl + d to select the next of the same below</p>
+    <p>Emmet is built into VS Code <a target="_blank" href="https://docs.emmet.io/">https://docs.emmet.io/</a></p>
 </body>
 </head>
 
-</html> 
--->
+</html>  -->
+
+
 
 <!DOCTYPE html>
+<html lang="en-US">
 
 <head>
     <meta charset="utf-8">
-    <!--
-        Best to have the charset first. Everything in unicode can be interpreted by UTF-8. 
-    -->
+    <p>
+        Best to have the charset first. Everything in unicode can be interpreted by UTF-8.
+    </p>
+
+    <meta name="author" content="Adam Markus">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <p>Try to research the tag above.</p>
+ 
+    
+
+    <p>&lt;base href="https://www.w3schools.com/" target="_blank"&gt;</p>
+
     <meta name="description" content="This is a meta description">
+    <meta name="keywords" content="web development">
+
+    <p> There are specific favicons for iOS devices </p>
+    <p> basic favicon </p>
+    <link rel="icon" href="/Pictures/favicon.png" type="image/png"/>
+    <p>The above is not working.</p>
+    <p>favicons can be in .ico, .gif, or .png</p>
+    
+
+    <meta name="robots" content="noindex, nofollow">
+    <p> The robots tag above is more specific than the robots.txt file. </p>
+
+    <meta property="og:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
+    <meta property="og:description" content="The Mozilla Developer Network (MDN) provides
+information about Open Web technologies including HTML, CSS, and APIs for both Web sites
+and HTML5 Apps. It also documents Mozilla products, like Firefox OS.">
+    <meta property="og:title" content="Mozilla Developer Network">
+    <meta name="twitter:title" content="Mozilla Developer Network">
+    <p>Twitter has its own proprietary metadata</p>
+
+    <style>
+        #Header {
+            color: blue;
+        }
+
+        #link:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        #link:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        #link:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        #link:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+
+    <link rel="stylesheet" href="styles.css">
+    <p> The above is how you link an external style sheet </p>
+
     <title>😀HTML BASICS</title>
 
-
+</head>
 
 <body>
     <h1>HTML BASICS</h1>
 
     <h2>CHARSET</h2>
-    <p>?</p>
-
+    <p>Just use &lt;meta charset="utf-8"&gt;</p>
+    <hr>
     <h2>SEMANTICS</h2>
+    <ul style="list-style-type:square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <p>Do not capitalize file names and use dashes where you want spaces.</p>
+    <p>Lists can also be horizontal for navigation.</p>
+    <p>You can adjust the type of ordered list as well as adjust the auto counting.</p>
+    <p>An inline element cannot contain a block-level element. </p>
     <p>Use the http protocol when using an anchor tag</p>
     <p>inline and block elements</p>
     <p>entities - reserved in html or symbols &copy; &lt; &gt; </p>
-    <p>centre text</p>
+    <p>Other tags: del, code, kbd, blockquote, q, cite, time, pre, br, sub, sup, small, ins, mark, abbr, address, bdo,
+        dl, dt, dd, samp, var
+    </p>
+    <p>Global attributes: class, id, contenteditable, lang, dir</p>
+    <p>Wrap a &lt;code&gt; in a &lt;pre&gt; to preserve line indentations. Code adjusts the font.</p>
+    <p>A blocklevel element spans the width of the page.</p>
+    <p>ARIA in the accessibility tree (see firefox). These are actual attributes that you can add to the code.</p>
+    <p>You can use nonbreaking spaces between two words to keep them together.</p>
+    <p title="John 'ShotGun' Nelson">This element has a tooltip.</p>
     <p>
-        &lt;article&gt;
-        &lt;aside&gt;
-        &lt;details&gt;
-        &lt;figcaption&gt;
-        &lt;figure&gt;
-        &lt;footer&gt;
-        &lt;header&gt;
-        &lt;main&gt;
-        &lt;mark&gt;
-        &lt;nav&gt;
-        &lt;section&gt;
-        &lt;summary&gt;
-        &lt;time&gt;
+        &lt;article&gt; &lt;aside&gt; &lt;details&gt; &lt;figcaption&gt; &lt;figure&gt; &lt;footer&gt; &lt;header&gt;
+        &lt;main&gt; &lt;mark&gt; &lt;nav&gt; &lt;section&gt; &lt;summary&gt; &lt;time&gt;
     </p>
     <p><em>Emphasis</em> is better than italics &lt;i&gt;. Similar with &lt;strong&gt; and &lt;b&gt;, respectively.</p>
     <p>MDN shows us which tags and attributes have been depricated.</p>
+    <p>Call your homepage index.html. Good to have images folder, styles folder, and scripts folder. </p>
+    <p>id is used for targeted links</p>
+    <p>File Paths - picture.jpg (in same folder), images/picture.jpg (located in the images folder in the current
+        folder), /images/picture.jpg (located in the images folder at the root), ../picture.jpg (located one level up)
+    </p>
+    <p>Links - target="_blank, _self, _parent, or _top" </p>
+    <p><a href="http://www.google.com" id="link">Link with styles</a></p>
+    <p><a href="http://www.google.com">Link without styles</a></p>
+    <p><a href="#2">Bookmark</a></p>
+    <p id="#2">Bookmarked to this. Add the #2 to the end of a url, like html_demo.html#2.</p>
+    <p>To define multiple classes, separate the class names with a space, e.g. &lt;div class="city main"&gt;. The
+        element will be styled according to all the classes specified.</p>
+    <p
+        style="margin: 50px; padding: 30px; color:whitesmoke; background-color: black; font-family:courier; border: 2px solid tomato; font-size: 90%; text-align: center;">
+        This is a paragraph showing inline styles.
+    </p>
+    <p>Colours: RGB, HEX, HSL, RGBA, HSLA</p>
+    <p id="Header">Modified by Internal CSS in the header.</p>
+    <p>centre all elements</p>
+    <p>An HTML iframe is used to display a web page within a web page.&lt;iframe src="demo_iframe.htm" name="iframe_a"
+        height="200px" width="100%" title="Iframe Example"&gt;&lt;/iframe&gt;</p>
+    <p>An iFrame can also be the target for a link.</p>
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+    <p style="font-size:2vw">Text relative to the viewport width</p>
+    <p>canvas tag used with JS to draw</p>
+    <p>svg tag used for drawing</p>
+    <p>APIs: geolocation, drag/drop, web storage, web workers, sse</p>
     <hr>
+
     <h2>FORMS AND TABLES</h2>
     <h3>Tables</h3>
     <table>
@@ -89,7 +194,9 @@
             </tr>
         </tbody>
     </table>
-
+    <p>Tables can have borders style="border: 1px solid black;". You can also collapse them with border-collapse. </p>
+    <p>You can also add celll padding, border spacing, and align the text to the left, right, or center.</p>
+    <p>colgroups and captions</p>
     <h3>Forms</h3>
     <form action="mailto:adamalexandermarkus@gmail.com" method="post" enctype="text/plain">
         <label for="name">Name</label>
@@ -118,10 +225,11 @@
         </p>
 
         <button>Click Me</button>
-        <!--
-        An alternative way to make a submit button. 
-        <input type="submit" value="Click Me">
-        -->
+        <button type="reset">reset</button>
+        <p>
+            An alternative way to make a submit button.
+            <input type="submit" value="Click Me">
+        </p>
     </form>
 
     <p>action is where the data should be sent</p>
@@ -130,24 +238,156 @@
     <p>label - used for screen readers. Connected through <i>for</i> and <i>id</i> attributes.</p>
     <p>value - adjusts what is set with the name</p>
     <p>Always use a label. It is used for more than just screenreaders.</p>
+    <p>Other atributes: autocomplete, nonvalidate, target, readonly, disabled, size, maxlength, min, max, multiple,
+        pattern, step, autofocus. </p>
+    <p>Other elements: input, label, select, textarea, button, fieldset, legend, datalist, output, option, optgroup</p>
     <p>If you have a button in a form, the default behavior will be to submit that form, unless you specify
         type="button".</p>
+    <p><a href="https://www.w3schools.com/html/html_form_input_types.asp">Input types here</a></p>
+    <p>URLs can only be sent over the Internet using the ASCII character-set.</p>
+    <p>You may have an imput located outside the form but connected with the form attribute. </p>
+    <p>Other attributes: formaction, formenctype, formmethod, form target, formnovalidate, novalidate, </p>
 
-
+    <hr>
 
     <h2>IMAGES</h2>
     <img width="202px" src="Pictures/Desk.jpg" alt="alt tag">
+    <p> Always include the width and height in an image, otherwise the browser needs to download the image first, also
+        may flicker.</p>
+    <p>There are image maps.</p>
+    <div style="background-image: url('Pictures/Desk.jpg'); width: 200px; height: 200px;"></div>
+    <p>If the background image is smaller than the element, the image will repeat itself, horizontally and vertically,
+        until it reaches the end of the element. To avoid the background image from repeating itself, set the
+        background-repeat property to no-repeat.</p>
+    <p>If you want the background image to cover the entire element, you can set the background-size property to cover.
+        Also, to make sure the entire element is always covered, set the background-attachment property to fixed. This
+        way, the background image will cover the entire element, with no stretching (the image will keep its original
+        proportions).</p>
+    <p>no adjustment</p>
+    <div style="background-image: url('Pictures/Desktop Background 480.jpg'); width: 1000px; height: 500px;"></div>
+    <br>
+    <p>no repeat</p>
+    <div
+        style="background-image: url('Pictures/Desktop Background 480.jpg'); width: 1000px; height: 500px; background-repeat: no-repeat;">
+    </div>
+    <br>
+    <p>cover and no repeat</p>
+    <div
+        style="background-image: url('Pictures/Desktop Background 480.jpg'); width: 1000px; height: 500px; background-repeat: no-repeat; background-size: cover;">
+    </div>
+    <br>
+    <p>cover, no repeat, and fixed</p>
+    <div
+        style="background-image: url('Pictures/Desktop Background 480.jpg'); width: 1000px; height: 500px; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    </div>
+    <br>
+    <p>max-width 100%</p>
+    <div>
+        <img style="max-width: 100%;" src="Pictures/Desk.jpg" alt="alt tag">
+    </div>
+    <br>
+    <figure>
+        <img width="202px" src="Pictures/Desk.jpg" alt="alt tag">
+        <figcaption>This is my desk with a figcaption</figcaption>
+    </figure>
+
+    <h3>The Picture Element</h3>
+    <p> In order to deliver high-rez images to different screen pixel densities, srcset using #x. </p>
+
+    <p> In order to deliver high-rez images to different screen sizes and pixel densities, srcset using 1920w, 480w,
+        960w, etc. and also uses the sizes attribute to specify max-width. </p>
+
+    <a
+        href="https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-use-html5-picture-for-responsive-images--cms-21015">More
+        info on the picture element.</a>
+
+
+    <p> For different images on different screensizes, use the picture element. </p>
+    <p>picture element</p>
+    <picture>
+        <source media="(min-width:600px)" srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-320.jpg  320w,
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-480.jpg  480w, 
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-720.jpg  720w,
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-960.jpg  960w, 
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-1440.jpg 1440w, 
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-1920.jpg 1920w">
+        <source srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-cropped-320.jpg 320w,
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-cropped-480.jpg 480w, 
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-cropped-720.jpg 720w,
+                        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-cropped-960.jpg 960w">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-480.jpg" alt="smiling black dog"
+            height="360px" width="480px">
+    </picture>
+
+
+    <p>min-width is greater than then do this, max-width is less than do this. </p>
+
+
+
+    <hr>
+    <h2>MEDIA</h2>
+    <h3>Audio</h3>
+    <audio controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
+    <h3>Video</h3>
+    <video controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4"></video>
+    <p> source elements can be used for audio and video. </p>
+
+
+    <h2>HOW A WEB BROWSER DISPLAYS A WEBPAGE</h2>
+    <p>scheme://domain:port/path?query_string#fragement_id</p>
+    <p></p>
 
 
 
 </body>
-</head>
 
 </html>
 
 
 
+<!-- <!DOCTYPE html>
+<html lang="en">
 
-<!--
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
--->
+<body>
+
+    
+
+</body>
+
+</html> -->
+
+
+
+
+<!-- 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB SERVER BASICS</title>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTIONS</title>
+</head>
+<body>
+    <p></p>
+</body>
+</html> -->
